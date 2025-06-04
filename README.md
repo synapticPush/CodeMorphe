@@ -57,15 +57,4 @@ cd codeMorphe
 npm install
 npm run dev
 
----
-
-### Future Improvements
-Support for more programming languages
-
-Enhanced AI model integration for better translation
-
-History and session management
-
-User authentication
-
 
