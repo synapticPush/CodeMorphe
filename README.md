@@ -1,69 +1,71 @@
-# Welcome to your Lovable project
+# 💻 CodeMorphe – An AI Powered Code Translating Application
 
-## Project info
+CodeMorphe is a modern and intuitive web-based code translation application designed to help developers translate code from one language to another with ease. It offers a sleek user interface, fast performance, and a seamless user experience powered by cutting-edge front-end technologies.
 
-**URL**: https://lovable.dev/projects/84770106-67e4-45fd-9f3c-d984bef9955c
+---
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+- 🌐 Translate code between different programming languages
+- 💡 Dark/Light mode toggle for user comfort
+- 📋 Copy to clipboard and export to PDF
+- 🤖 Built-in AI chatbot specialized in coding queries
+- 🖥️ Clean and modern UI design with responsive layout
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/84770106-67e4-45fd-9f3c-d984bef9955c) and start prompting.
+## 🛠️ Technologies Used
 
-Changes made via Lovable will be committed automatically to this repo.
+This project is built with:
 
-**Use your preferred IDE**
+- [**Vite**](https://vitejs.dev/) – Lightning fast build tool and dev server
+- [**React**](https://reactjs.org/) – Component-based front-end library
+- [**TypeScript**](https://www.typescriptlang.org/) – Strongly typed JavaScript for better development
+- [**Tailwind CSS**](https://tailwindcss.com/) – Utility-first CSS framework
+- [**shadcn/ui**](https://ui.shadcn.com/) – UI components built on top of Tailwind for better accessibility and design
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📁 Project Structure
+codeMorphe/
+├── public/
+├── src/
+│ ├── components/
+│ ├── pages/
+│ ├── utils/
+│ ├── styles/
+│ └── main.tsx
+├── index.html
+├── tailwind.config.js
+├── tsconfig.json
+└── vite.config.ts
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🧑‍💻 Getting Started
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Prerequisites
 
-# Step 3: Install the necessary dependencies.
-npm i
+- Node.js (v16+ recommended)
+- npm or yarn
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### Installation
+
+```bash
+git clone https://github.com/your-username/codeMorphe.git
+cd codeMorphe
+npm install
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Future Improvements
+Support for more programming languages
 
-**Use GitHub Codespaces**
+Enhanced AI model integration for better translation
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+History and session management
 
-## What technologies are used for this project?
+User authentication
 
-This project is built with .
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/84770106-67e4-45fd-9f3c-d984bef9955c) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
